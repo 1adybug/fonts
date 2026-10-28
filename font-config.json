@@ -1,0 +1,119 @@
+{
+  "version": "0.1.0",
+  "fonts": [
+    {
+      "id": "mi-sans",
+      "name": "@1adybug/mi-sans",
+      "family": "MiSans VF",
+      "copyright": "Xiaomi Inc.",
+      "homepage": "https://hyperos.mi.com/font/en/download/",
+      "fontVersion": "MiSans VF (official split WOFF2)",
+      "axis": {
+        "min": 150,
+        "default": 330,
+        "max": 700
+      },
+      "expectedSlices": 56,
+      "kind": "official-woff2",
+      "licenseFile": "LICENSE.pdf",
+      "namedWeights": {
+        "Regular": 330,
+        "Medium": 380,
+        "Demibold": 450
+      }
+    },
+    {
+      "id": "harmonyos-sans",
+      "name": "@1adybug/harmonyos-sans",
+      "family": "HarmonyOS Sans",
+      "copyright": "Huawei Device Co., Ltd.",
+      "homepage": "https://developer.huawei.com/consumer/cn/design/resource/",
+      "fontVersion": "2.040",
+      "axis": {
+        "min": 40,
+        "default": 400,
+        "max": 900
+      },
+      "expectedSlices": 150,
+      "kind": "variable-ttf",
+      "licenseFile": "LICENSE",
+      "namedWeights": {
+        "Thin": 100,
+        "UltraLight": 173,
+        "Light": 247,
+        "Regular": 400,
+        "Medium": 500,
+        "SemiBold": 603,
+        "Bold": 706,
+        "Heavy": 772,
+        "Black": 844
+      },
+      "composite": {
+        "base": "HarmonyOS_Sans_SC.ttf",
+        "override": "HarmonyOS_Sans.ttf",
+        "unicodeRange": "U+0000-024F, U+1E00-1EFF"
+      }
+    },
+    {
+      "id": "oppo-sans",
+      "name": "@1adybug/oppo-sans",
+      "family": "OPPO Sans 4.0",
+      "copyright": "Guangdong OPPO Mobile Telecommunications Corp., Ltd.",
+      "homepage": "https://www.coloros.com/article/A00000074/",
+      "fontVersion": "4.0 (font version 1.700)",
+      "axis": {
+        "min": 100,
+        "default": 400,
+        "max": 700
+      },
+      "expectedSlices": 148,
+      "kind": "variable-ttf",
+      "licenseFile": "LICENSE",
+      "namedWeights": {
+        "Light": 300,
+        "Regular": 400,
+        "Medium": 500,
+        "SemiBold": 600,
+        "Bold": 700
+      }
+    },
+    {
+      "id": "vivo-sans",
+      "name": "@1adybug/vivo-sans",
+      "family": "vivo Sans",
+      "copyright": "vivo Mobile Communication Co., Ltd.",
+      "homepage": "https://developers.vivo.com/doc/d/314fa33cbaec4a93be351cd44757d9d9",
+      "fontVersion": "OS SC 1.05 / EN 1.150",
+      "axis": {
+        "min": 100,
+        "default": 400,
+        "max": 850
+      },
+      "opticalSize": {
+        "min": 10,
+        "default": 16,
+        "max": 22
+      },
+      "expectedSlices": 149,
+      "kind": "variable-ttf",
+      "licenseFile": "LICENSE",
+      "composite": {
+        "base": "vivoSansSCVF.ttf",
+        "override": "vivoSansENVF.ttf",
+        "unicodeRange": "U+20-7E, U+A0-131, U+134-148, U+14A-17E, U+18F, U+192, U+19D, U+1CE, U+1D0, U+1D2, U+1D4, U+1D6, U+1D8, U+1DA, U+1DC, U+1E6-1E7, U+1EA-1EB, U+1F9, U+1FC-1FF, U+218-21B, U+232-233, U+237, U+250-2B0, U+2B2-2B3, U+2B7-2B8, U+2BC, U+2C6-2C7, U+2C9-2CB, U+2D8-2DD, U+2E1-2E3, U+300-304, U+306-308, U+30A-30C, U+312, U+323, U+326-328, U+335, U+338, U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-45F, U+462-463, U+46A-46B, U+472-475, U+490-493, U+496-497, U+49A-49D, U+4A2-4A3, U+4AE-4B3, U+4B8-4BB, U+4C9-4CA, U+4D8-4D9, U+4E8-4E9, U+E3F, U+1D2C, U+1D2E, U+1D30-1D31, U+1D33-1D3A, U+1D3C, U+1D3E-1D43, U+1D47-1D49, U+1D4D, U+1D4F-1D50, U+1D52, U+1D56-1D58, U+1D5B, U+1D67, U+1D9C, U+1D9E, U+1DA0, U+1DBB, U+1E3F, U+1E80-1E85, U+1E9E, U+1EA0-1EA1, U+1EB8-1EB9, U+1EBC-1EBD, U+1ECA-1ECD, U+1EE4-1EE5, U+1EF2-1EF3, U+1EF8-1EF9, U+1F4D, U+1FEF, U+1FFD, U+2000-200B, U+2010, U+2012-2016, U+2018-201A, U+201C-201E, U+2020-2022, U+2025-2026, U+202F-2030, U+2032-2037, U+2039-203B, U+2044, U+2070-2071, U+2074-208E, U+2090-2094, U+20A8-20A9, U+20AB-20AC, U+20B9, U+20BD, U+2103, U+2105, U+2109, U+2113, U+2116, U+2121-2122, U+2126, U+212E, U+2153-215E, U+2160-216B, U+2170-2179, U+2190-2193, U+2196-2199, U+2202, U+2205-2206, U+2208, U+220F, U+2211-2212, U+2215, U+2217, U+2219-221A, U+221D-2220, U+2223, U+2225, U+2227-222B, U+222E, U+2234-2237, U+223D, U+2248, U+224C, U+2252, U+2260-2261, U+2264-2267, U+226E-226F, U+2295, U+2299, U+22A5, U+22BF, U+22EF, U+2312, U+2460-249B, U+25CA, U+2640, U+2642, U+2713, U+2717, U+3251-325B, U+338E-338F, U+339C-339E, U+33A1, U+33C4, U+33CE, U+33D1-33D2, U+33D5, U+E004-E009, U+E010-E012, U+E76C, U+E7C7-E7C8, U+FEFF"
+      },
+      "testWeights": [100, 400, 550, 700, 850],
+      "testSizes": [10, 14, 16, 18, 22]
+    }
+  ],
+  "partition": {
+    "package": "@fontsource-variable/noto-sans-sc",
+    "version": "5.3.1",
+    "file": "wght.css",
+    "sha256": "e0abf071de114db4a7f08f6188ae2de22bb5e49bf77721b01d771afa45c62621"
+  },
+  "baseline": {
+    "project": "ai-cosmos-mobile-demo",
+    "revision": "1a9415f6c2e2e6929ae804bfc75b83012f2af98e"
+  }
+}

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ttf -text
+*.woff2 -text
+*.pdf -text
+**/LICENSE -text
+**/LICENSE.pdf -text

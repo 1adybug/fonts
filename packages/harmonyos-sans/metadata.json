@@ -1,0 +1,48 @@
+{
+  "id": "harmonyos-sans",
+  "family": "HarmonyOS Sans",
+  "version": "2.040 / Version 2.040",
+  "category": "sans-serif",
+  "styles": [
+    "normal"
+  ],
+  "weights": [
+    100.0,
+    173.0,
+    247.0,
+    400.0,
+    500.0,
+    603.0,
+    706.0,
+    772.0,
+    844.0
+  ],
+  "variable": {
+    "wght": {
+      "default": "400",
+      "min": "40",
+      "max": "900",
+      "step": "1"
+    }
+  },
+  "namedWeights": {
+    "Thin": 100.0,
+    "UltraLight": 173.0,
+    "Light": 247.0,
+    "Regular": 400.0,
+    "Medium": 500.0,
+    "SemiBold": 603.0,
+    "Bold": 706.0,
+    "Heavy": 772.0,
+    "Black": 844.0
+  },
+  "files": 150,
+  "unicodeCoverage": 29509,
+  "license": {
+    "type": "custom",
+    "file": "LICENSE",
+    "attribution": "Huawei Device Co., Ltd."
+  },
+  "source": "https://developer.huawei.com/consumer/cn/design/resource/",
+  "type": "vendor"
+}

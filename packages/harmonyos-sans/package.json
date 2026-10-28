@@ -1,0 +1,59 @@
+{
+  "name": "@1adybug/harmonyos-sans",
+  "version": "0.1.0",
+  "description": "Self-host HarmonyOS Sans variable font with Unicode-range WOFF2 subsets.",
+  "main": "index.css",
+  "style": "index.css",
+  "types": "index.d.css.ts",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://developer.huawei.com/consumer/cn/design/resource/",
+  "keywords": [
+    "font",
+    "variable",
+    "woff2",
+    "css",
+    "self-hosted",
+    "harmonyos-sans"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "index.css",
+    "wght.css",
+    "index.d.css.ts",
+    "metadata.json",
+    "unicode.json",
+    "sources.json",
+    "README.md",
+    "LICENSE",
+    "files/*.woff2"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.css.ts",
+      "sass": "./index.css",
+      "default": "./index.css"
+    },
+    "./wght": {
+      "types": "./index.d.css.ts",
+      "sass": "./wght.css",
+      "default": "./wght.css"
+    },
+    "./wght.css": {
+      "types": "./index.d.css.ts",
+      "sass": "./wght.css",
+      "default": "./wght.css"
+    },
+    "./files/*": "./files/*",
+    "./metadata.json": "./metadata.json",
+    "./unicode.json": "./unicode.json",
+    "./sources.json": "./sources.json",
+    "./package.json": "./package.json",
+    "./LICENSE": "./LICENSE"
+  }
+}
